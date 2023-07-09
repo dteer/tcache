@@ -1,0 +1,20 @@
+# 配置信息
+
+service:
+    default_db_path: "/tmp/tcache"
+    default_host: "127.0.0.1"
+    default_port: "5400"
+    default_databases_num: 16
+
+self_peer:
+    host: "127.0.0.1:7003"
+    id: "3"
+
+followers:
+    - "127.0.0.1:7001"
+    - "127.0.0.1:7002"
+flowwer_ids:
+    - "1"
+    - "2"
+dir: "/tmp/node3"
+
